@@ -1,5 +1,6 @@
 const { add } = require('./calculator');
 
-test('returns 0 for an empty string', () => {
-    expect(add("")).toBe(0);
+test('returns sum of two numbers separated by a comma', () => {
+    expect(add("1,2")).toBe(3);
 });
+
